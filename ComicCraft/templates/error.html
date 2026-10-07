@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+Generation Error • ComicCraft
+{% endblock %}
+
+
+{% block content %}
+
+
+<section class="error-card">
+
+
+    <div class="success-icon">
+        !
+    </div>
+
+
+    <h1>
+        Comic generation could not be completed.
+    </h1>
+
+
+    <p>
+        {{ error }}
+    </p>
+
+
+    <a
+        class="primary-btn"
+        href="/"
+    >
+        Return Home
+    </a>
+
+
+</section>
+
+
+{% endblock %}
